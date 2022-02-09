@@ -1,0 +1,43 @@
+
+body {
+    font-family: sans-serif;
+}
+.nav-item {   
+    font-size: 30px;
+}
+.seccion{      
+    padding-bottom: 280px;
+} 
+.seccion a {
+    color: #389e40;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color: transparent;
+    }
+.seccion div:hover {
+    background: #fffafa;
+    box-shadow: 0 0 0px #4ad455, 0 0 0px #4ad455, 0 0 0px #4ad455;
+    }
+.header {
+    padding-bottom: 340px;
+}
+.seccion h1 {
+    padding-top: 5px; 
+    padding-bottom: 85px;
+    text-align: center;
+    }
+.row  h1 {
+    font-size: 25px;
+}
+.col img:hover {
+    color: black;
+    transition: 0.2s;
+}
+.col a:hover {
+    color: black;
+    transition: 0.2s;
+}
+.pie{
+    list-style: none;
+}

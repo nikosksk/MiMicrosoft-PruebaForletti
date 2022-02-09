@@ -1,0 +1,551 @@
+
+*{
+    padding: 0px;
+    margin: 0px;   
+
+}
+
+
+/*BODY*/
+body {
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera";
+    grid-template-areas: "menu menu menu";
+    grid-template-areas: "seccion seccion seccion";
+    grid-template-areas: "noticias noticias noticias";
+    grid-template-areas: "pie pie pie";
+    
+}
+main {  
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232fd337' fill-opacity='0.26' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    height: 100%;  
+}
+/*GENERAL*/
+
+.general {  
+    width: 100%;
+    height: 800px;  
+}
+
+/*HEAD*/
+.cabecera {
+    grid-area: cabecera;
+}
+
+.cabecera {
+    width: 100%;
+    height: 200;
+    text-align: right;   
+}
+
+.cabecera .imag{
+    width: 100%;
+    height: 750px;
+}
+.cabecera .imag2{
+    width:50px;
+    height: 50px;
+}
+.cabecera .imag2{
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    float:right
+}
+.cabecera h1 {
+    padding-top: 16px;
+}
+/*MENU-SECCION*/
+
+.menu { 
+    width: 100%;
+    height: 200;
+    background: #d3d3d3;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 4px;
+    grid-area: menu;
+}
+
+.menu .btn {  
+    position: relative;
+    display: inline-block;
+    padding: 20px 176px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.menu .btn:hover {
+    background: #4ad455 ;
+    box-shadow: 0 0 0px #4ad455, 0 0 0px #4ad455, 0 0 0px #4ad455;  
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.seccion {
+    grid-area: seccion;
+    padding:70px 70px;
+    padding-top: 250px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.seccion a {
+    color: #389e40;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color: transparent;
+}
+.seccion div:hover {
+    background: #fffafa;
+    box-shadow: 0 0 0px #4ad455, 0 0 0px #4ad455, 0 0 0px #4ad455;
+    border: 1px solid #4ad455
+}
+.seccion h1 {
+    text-align: center;
+    padding-top: 140px;
+}
+.micro img{
+    width: 320px;
+    height: 380px;
+    margin-left: 107px;
+}
+.xbox img {
+    width: 650px;
+    height: 400px;
+    margin-right: 10px;
+}
+.offi img {
+    width: 450px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+
+/*NOTICIAS*/
+
+.noticias {
+    grid-area: noticias;
+    margin-bottom: 100px;
+    list-style: none;  
+}
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.video{
+    width: 360px;
+    height: 215px;
+    margin-left: 80px;
+}
+
+
+/*FOOTER*/
+
+
+.pie {
+    display: grid;
+    grid-area: pie;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 200px;
+    background: #161818;
+    text-align: left;
+    color: white;
+    vertical-align: baseline;
+    font-family: sans-serif;  
+}
+.pie div {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+
+/**ACTUALIZACIONES**/
+   /*Cabecera Actualizaciones*/
+.imagTop {
+    width: 950px;
+    height: 450px;
+}
+.actuaCabecera{
+    width: 40%;
+    height: 40px
+}
+.actuaCabecera{
+    padding-top: 80px;
+    padding-right: 100px;
+    align-items: none;
+    font-size: 40px;
+    word-spacing: 25px;
+    float:right
+}
+.actuaCabecera .btn{
+    
+    display: block;
+    padding: 20px 176px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.actuaCabecera .btn:hover{  
+    background-color:#4ad455;
+}
+.tittle {
+    display: grid;
+    grid-template-columns: repeat(2, 0.08fr);
+}
+.tittle h1{
+    padding-top: 16px;
+    padding-left: 10px;
+}
+.tittle img{  
+    width: 50px;
+    height: 50px;
+    padding-top: 4px;
+ }
+
+
+   /*Cuerpo Actualizaciones*/
+
+.actu {  
+    height: 800px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.actualizar {
+    padding-top: 180px;
+}
+.link {   
+    text-align: center;
+    padding-top: 80px;
+}
+.actualizar  {
+    text-align: center;
+}
+    /*Pie Actualizaciones*/
+footer {
+    background: grey;
+}
+.pieP {
+    height: 300px;
+    font-size: 15px;
+}
+.pieP  div{
+    padding-left: 110px;
+    padding-top: 25px;
+}
+.pie3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.link a {
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color: transparent;
+}
+.link a:hover {
+    background: #4ad455;
+    box-shadow: 0 0 0px #4ad455, 0 0 0px #4ad455, 0 0 0px #4ad455;
+    border: 1px solid #4ad455;
+}
+/**REGISTRARS**/
+
+/*Registrar Cabecera*/
+.registroCabecera{
+    width: 60%;
+    height: 40px 
+}
+.registroCabecera{
+    padding-top: 20px;
+    padding-left: 100px ;
+    font-size: 40px;
+    word-spacing: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.registroCabecera .btn{
+    padding: 20px 166px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.registroCabecera .btn:hover{  
+    background-color:#4ad455;
+}
+.imagenR {
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+.tittle3{
+    display: grid;
+    grid-template-columns: repeat(2, .08fr);
+}
+.tittle3 h1{
+    padding-top: 43px;
+    font-size: 25px;
+}
+.tittle3 img {
+    padding-top: 32px;
+}
+/*Registrar Cuerpo*/
+.imagenR img{
+    width: 250px;
+    height: 250px;
+}
+.registrar {
+    height: 800px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.registrar {
+    padding-top: 180px;
+    text-align: center;
+}
+.registrar .encuadre{
+   padding: 50px;
+   border: 1px solid black
+}
+/*Registrar Pie*/  
+.pieRegistro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pieR {
+    background: grey;
+}
+.pieR {
+    height: 300px;
+    font-size: 14px;
+}
+.pieR  div{
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+/**SOPORTE**/
+    /*Soporte Cabecera*/
+.soporteCabecera{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.soporteCabecera{
+    width: 40%;
+    height: 40px
+}
+.soporteCabecera{ 
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+.soporteCabecera .btn{
+    padding: 20px 166px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.soporteCabecera .btn:hover{  
+    background-color:#4ad455;
+}
+.imagenS img{
+    width: 850px;
+    height: 550px;
+    padding-top: 20px;
+}
+.tittle1{
+    display: grid;
+    grid-template-columns: repeat(2, .08fr);
+}
+.tittle1 h1{
+    padding-top: 13px;
+    padding-right: 10px;
+}
+.tittle1 img{
+    width:50px;
+    height: 50px;
+}
+.tittle1 img{ 
+    padding-top: 4px;
+}
+   /*Soporte Cuerpo*/
+
+.sup {
+    height: 800px;
+    margin-top: 6px;
+    font-size: 40px;
+}
+.soporte {
+    padding-top: 180px;
+}
+
+.link1 {
+    text-align: center;
+    padding-top: 80px;
+}
+.soporte  {
+    text-align: center;
+}
+.link1 a{
+    padding: 20px 166px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.link1 a:hover{  
+    background-color:#4ad455;
+}
+  /*Soporte Pie*/  
+.pieSoporte{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 12px;
+}
+.pieS {
+    background: grey;
+}
+.pieS {
+    height: 300px;
+    font-size: 10px;
+}
+.pieS  div{
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+/*TIENDA*/
+
+/*Tienda Cabecera*/
+.tiendaCabecera{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tiendaCabecera{
+    width: 40%;
+    height: 40px
+}
+.tiendaCabecera{
+    font-size: 40px;
+    word-spacing: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tiendaCabecera .btn{
+    padding: 20px 166px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.tiendaCabecera .btn:hover{  
+    background-color:#4ad455;
+}
+.imagenT {
+    padding-top: 20px;
+    width: 850px;
+    height: 450px;
+}
+.imag{
+    width: 50px;
+    height: 50px;
+}
+.tittle2 {
+    display: grid;
+    grid-template-columns: repeat(2, .08fr);
+}
+.tittle2 h1 {
+    padding-top: 110px;
+}
+.tittle2 img {
+    padding-top: 99px;
+}
+/*Tienda Cuerpo*/
+
+.tienda {
+    height: 800px;
+    margin-top: 8px;
+    font-size: 40px;
+}
+.tienda1 {
+    text-align: center;
+    padding-top: 200px;
+}
+.links{
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.links a{
+    padding: 20px 166px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s; 
+}
+.links a:hover{  
+    background-color:#4ad455;
+}
+/*Tienda Pie*/  
+.pieT {
+    background: grey;
+}
+
+.pieT {
+    height: 300px;
+    font-size: 10px;
+}
+.pieT  div{
+    padding-left: 70px;
+    padding-top: 25px;
+}
+.pieTienda{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 14px;
+}
+
+/*REDES SOCIALES*/
+
+
+/*RESPONSIVE MOBILE-FIRST*/
+
+
+
+/*TABLE*/
+
+
+    
+     
+    
+    
