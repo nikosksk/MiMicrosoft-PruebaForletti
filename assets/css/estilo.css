@@ -41,3 +41,14 @@ body {
 .pie{
     list-style: none;
 }
+
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+body {
+    background: green;
+}}
+
+@media only screen and (max-width: 480px){
+    body {
+        background: blue;
+    }}
