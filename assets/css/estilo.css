@@ -2,9 +2,7 @@
 body {
     font-family: sans-serif;
 }
-.nav-item {   
-    font-size: 30px;
-}
+
 .seccion{      
     padding-bottom: 280px;
 } 
@@ -27,6 +25,9 @@ body {
     padding-bottom: 85px;
     text-align: center;
     }
+.borde {
+    border-bottom: solid 3 px black;
+}
 .row  h1 {
     font-size: 25px;
 }
@@ -38,10 +39,18 @@ body {
     color: black;
     transition: 0.2s;
 }
-.pie{
-    list-style: none;
+.pie .nav .nav-link1 {
+    font-size: 20px;
 }
-
+/* LOGIN ¨*/
+.registro .login-caja {
+    margin: 0;
+    padding: 0;
+    background: url(../imagen/imagenwinos.jpg) no-repeat center top ;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
 
 @media only screen and (min-width: 481px) and (max-width: 1023px){
 body {
@@ -52,3 +61,4 @@ body {
     body {
         background: blue;
     }}
+
