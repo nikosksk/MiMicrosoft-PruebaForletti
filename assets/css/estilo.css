@@ -25,31 +25,26 @@ body {
     padding-bottom: 85px;
     text-align: center;
     }
-.borde {
-    border-bottom: solid 3 px black;
-}
-.row  h1 {
-    font-size: 25px;
-}
-.col img:hover {
-    color: black;
-    transition: 0.2s;
-}
-.col a:hover {
-    color: black;
-    transition: 0.2s;
-}
 .pie .nav .nav-link1 {
     font-size: 20px;
 }
-/* LOGIN ¨*/
-.registro .login-caja {
-    margin: 0;
-    padding: 0;
-    background: url(../imagen/imagenwinos.jpg) no-repeat center top ;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
+.seccion .container .row h1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+.container .navbar-expand-lg .collapse .navbar-nav .nav-item a {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+.seccion .container .row .icono {
+    width: 150px;
+    height: 150px;
+    margin-left: 565px;
+    margin-bottom: 100px;
+}
+.borde .container .row .col a {
+    margin-left: 45px;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1023px){
