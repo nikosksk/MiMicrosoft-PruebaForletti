@@ -13,21 +13,20 @@ body {
 .collapse .navbar-nav li{
     text-align: center;
 }
-#iconox {
+.iconox {
     padding-left: 30px;
 }
-#iconow {
+.iconow {
     padding-bottom: 80px;
-    
 }
 .header {
-    border-bottom: 2px solid #107C10;
+    border-bottom: 6px solid #107C10;
 }
 .col2 {
     margin-top: 80px;
 }
 .seccion{     
-    border-bottom: 2px solid #107C10;
+    border-bottom: 6px solid #107C10;
     padding-bottom: 60px;
 } 
 .seccion a {
