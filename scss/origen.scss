@@ -1,0 +1,67 @@
+/* REGISTRO */
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.borde {
+    
+    .seccion{
+        .row {
+            #boton {
+            margin: 20% 0 20% 0;}
+        }
+    }
+}
+.seccion{      
+    padding-bottom: 280px;
+} 
+    a {
+    color: #389e40;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color: transparent;
+    }
+    div:hover {
+    background: #fffafa;
+    box-shadow: 0 0 0px #4ad455, 0 0 0px #4ad455, 0 0 0px #4ad455;
+    }
+    h1 {
+    color: #107C10;
+    font-size: 480%; 
+    padding-bottom: 80px;
+    text-shadow: 0px 1px rgb(red, green, blue);
+    }
+    .container .row .icono {
+        width: 150px;
+        height: 150px;
+        margin-left: 565px;
+        margin-bottom: 100px;
+        .col a {
+            margin-left: 45px;
+        
+        }
+    }
+.pie .nav .nav-link1 {
+    font-size: 20px;
+}
+.container .navbar-expand-lg .collapse .navbar-nav .nav-item a {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+.header {
+    padding-bottom: 150px;
+}
+.main-header{
+    position: relative;
+}
+.menu{
+    position: absolute;
+    bottom: 5%;
+    left: 28%;
+}     
+/*variables*/
+
+    $color: #107C10; 
