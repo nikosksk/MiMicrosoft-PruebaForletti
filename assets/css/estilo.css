@@ -1,6 +1,6 @@
 
 body {
-    font-family:Arial, sans-serif;
+    font-family: Geneva, sans-serif;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -13,10 +13,22 @@ body {
 .collapse .navbar-nav li{
     text-align: center;
 }
-
-.seccion{     
-    padding-bottom: 250px;
+#iconox {
+    padding-left: 30px;
+}
+#iconow {
+    padding-bottom: 80px;
+    
+}
+.header {
     border-bottom: 2px solid #107C10;
+}
+.col2 {
+    margin-top: 80px;
+}
+.seccion{     
+    border-bottom: 2px solid #107C10;
+    padding-bottom: 60px;
 } 
 .seccion a {
     color: #389e40;
@@ -50,13 +62,13 @@ body {
     font-family: 'Lora', serif;
     font-size: 30px;
 }
-.seccion .container .row .icono {
+.seccion .container .solo .icono {
     width: 150px;
     height: 150px;
     margin-left: 565px;
     margin-bottom: 100px;
 }
-.borde .container .row .col a {
+.borde .container .solo .col a {
     margin-left: 45px;
 
 }
@@ -65,11 +77,11 @@ body {
 }
 .menu{
     position: absolute;
-    bottom: 36%;
-    left: 19%;
-    font-size: 30px;
+    bottom: 28%;
+    left: 14%;
+    font-size: 35px;
     border-radius: 4px;
-    background: rgba(5, 7, 12, 0.20)
+    color: white;
 }
 
 .main-header2 {
@@ -78,21 +90,21 @@ body {
 .tienda {
   position: absolute;
   bottom: 40%;
-  left: 26%;
-  font-size: 30px;
+  left: 20%;
+  font-size: 40px;
   border-radius: 4px;
-  background: rgba(5, 7, 12, 0.20)
+  color: white;
 }
 .main-header3 {
     position: relative;
 }
 .menu1 {
     position: absolute;
-    bottom: 36%;
-    left: 24%;
-    font-size: 30px;
+    bottom: 31%;
+    left: 16%;
+    font-size: 40px;
     border-radius: 4px;
-    background: rgba(5, 7, 12, 0.20)
+    color: white;
 }
 .pie {
     padding: 10px;
@@ -100,13 +112,11 @@ body {
 }
 @media only screen and (min-width: 481px) and (max-width: 1023px){
 body {
-    background: green;
     text-align: center;
 }}
 
 @media only screen and (max-width: 480px){
     body {
-        background: blue;
         text-align: center;
     }}
     
