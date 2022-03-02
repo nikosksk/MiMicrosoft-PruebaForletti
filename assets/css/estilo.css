@@ -92,10 +92,11 @@ body {
   position: absolute;
   bottom: 40%;
   left: 20%;
-  font-size: 40px;
+  font-size: 30px;
   border-radius: 4px;
   color: white;
 }
+
 .main-header3 {
     position: relative;
 }
@@ -173,9 +174,7 @@ body {
     .iconow {
         padding-bottom: 1%;
     }
-    }
     
-
 .btn {
     border-radius: 4px;
     display: inline-block;
@@ -184,4 +183,5 @@ body {
 }
 .btn-green{
     background-color: #107C10;
+}
 }

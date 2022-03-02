@@ -40,7 +40,18 @@ body {
     width:80%;
     margin: 20px;
 }
-
 .login-caja a {
     padding-bottom: 200px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .login-caja {
+        margin: 100px;
+        margin-left: -8%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .login-caja {
+        margin: 100px;
+        margin-left: -23%;
+    }
 }
